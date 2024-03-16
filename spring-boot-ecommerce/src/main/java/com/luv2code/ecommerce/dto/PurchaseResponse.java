@@ -5,6 +5,10 @@ import lombok.Data;
 @Data
 public class PurchaseResponse {
 
-    private final String orderTrackingNumber;
+    public PurchaseResponse(String orderTrackingNumber2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	private final String orderTrackingNumber = "";
 
 }
