@@ -94,10 +94,6 @@ public class CheckoutServiceImpl implements CheckoutService {
         //
         return UUID.randomUUID().toString();
     }
-    
-    public String helloWorld() {
-    	return "HelloWorld!";
-    }
 }
 
 
