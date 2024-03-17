@@ -34,9 +34,6 @@ public class Address {
     @OneToOne
     @PrimaryKeyJoinColumn
     private Order order;
-    
-    private Order test;
-    public String sameerBhai;
 }
 
 
