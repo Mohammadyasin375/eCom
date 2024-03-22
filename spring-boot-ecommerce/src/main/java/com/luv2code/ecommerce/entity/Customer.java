@@ -46,10 +46,6 @@ public class Customer {
 	public Long getId() {
 		return id;
 	}
-
-	public String helloWorld(String hello) {
-		return hello;
-	}
 	
 	public void setId(Long id) {
 		this.id = id;
